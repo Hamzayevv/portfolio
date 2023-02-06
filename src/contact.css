@@ -1,0 +1,64 @@
+.label{
+    display: block;
+    padding:5px 40px;
+    color: #999999;
+}
+
+input{
+    border: 1px solid rgb(231, 227, 227);
+    padding: 0 5px;
+    margin: 0 40px;
+    height: 30px;
+    width: 500px;
+}
+.message_type{
+    height: 300px;
+    width: 500px;
+}
+
+.textarea{
+    border: 1px solid rgb(231, 227, 227);
+    padding: 0 5px;
+    margin: 0 40px;
+    height: 30px;
+    width: 500px;
+    height: 300px;
+
+}
+
+/* .submit{
+    border: 1px solid rgb(231, 227, 227);
+    padding: 0 40px;
+    margin: 10px 40px;
+    width: 120px;
+    height: 40px;
+    background-color: #4aaaa5;
+}
+.submit:hover{
+    border: 1px solid rgb(231, 227, 227);
+    padding: 0 40px;
+    margin: 10px 40px;
+    width: 120px;
+    height: 40px;
+    background-color: #85fff9;
+} */
+
+.submit{
+    border: 1px solid rgb(231, 227, 227);
+    padding: 0 40px;
+    margin: 10px 40px;
+    width: 120px;
+    height: 40px;
+    background-color: #4aaaa5;
+    color: azure;
+}
+.submit:hover{
+    border: 1px solid rgb(231, 227, 227);
+    padding: 0 40px;
+    margin: 10px 40px;
+    width: 120px;
+    height: 40px;
+    background-color: #16c3ba;
+    color: azure;
+    cursor: pointer;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About me</title>
+    <link href="./src/style_about.css" rel="stylesheet" />
+    <link href="./src/style_portfolio.css" rel="stylesheet"/>
+    <link href="./src/contact.css" rel="stylesheet"/>
+    <link rel="icon" type="image/x-icon" href="./src/assets/portfolio.png">
+  </head>
+  <body>
+    <header>
+      <div class="div_header_background">
+        <div class="div_header_container">
+          <div class="div_logo">
+            <a href="./portfolio.html"><h1>Fazil Hamzayev</h1></a>
+            
+          </div>
+          <div class="div_nav">
+            <ul class="nav_info">
+              <li><a href="./about_me.html" class="navigation">About</a></li>
+              <li><a href="./portfolio.html" class="navigation">Portfolio</a></li>
+              <li><a href="./contact.html" class="navigation">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="div_main_background">
+        <div class="div_content_area">
+          <div class="div_main_section">
+            <h2>Contact</h2>
+            <label class="label" for="name">Name</label>
+            <input type="text" class="name_type" id="name" placeholder="john Smith">
+            <label class="label" for="email">Email</label>
+            <input type="email" class="email_type" id="email" placeholder="example@gmail.com">
+            <label class="label" for="message">Message</label>
+            <!-- <input type="text" class="message_type" id="message"> -->
+            <textarea class="textarea" id="message"></textarea>
+            <input type="submit" class="submit" value="submit">
+          </div>
+          <div class="div_side_section">
+            <h6 class="connect_style">Connect with me</h6>
+            <div class="connection_logo">
+              <a href="https://www.linkedin.com/in/hamzayev/" target="_blank"
+                ><img
+                  src="./src/assets/Linkedin.png"
+                  alt="linkedin_logo"
+                  class="network_logo"
+                />
+              </a>
+              <a href="https://github.com/Hamzayevv" target="_blank"
+                ><img
+                  src="./src/assets/github.png"
+                  class="network_logo"
+                  alt="github_logo"
+                />
+                <a href="#"
+                  ><img
+                    src="./src/assets/stackoverflow-128.png"
+                    class="network_logo"
+                /></a>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="div_footer">Copyright 2023 Fazil Hamzayev</div>
+    </footer>
+  </body>
+</html>
