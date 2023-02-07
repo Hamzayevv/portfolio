@@ -57,12 +57,11 @@ a{
 }
      */
 
-/* .div_main_background{
+.div_main_background{
     background-image: url(./assets/concrete_seamless.png);
     /* height: 100%;
     margin: 0; */ */
-} */
-html{ background-image: url(./assets/concrete_seamless.png);}
+} 
 
 .div_content_area{
     padding: 40px 0;
