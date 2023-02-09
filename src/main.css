@@ -69,6 +69,8 @@ li {
   margin-top: 25px;
   border-right: 1px solid #999999;
 }
+    li:last-child{
+border-right: none;}
 li:hover{
     display: inline-block;
     text-align: center;
