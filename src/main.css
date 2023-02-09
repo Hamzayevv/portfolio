@@ -7,9 +7,9 @@
 /* Header */
 .div_header_background {
   height: 100px;
+  width: 100%;
   background-color: #fff;
   border-bottom: 2px solid #cccccc;
-  width: 100%;
 }
 
 .div_header_container {
@@ -40,7 +40,7 @@ h1 {
 }
 
 /* Nav */
-.div_nav {
+/* .div_nav {
   width: 270px;
   height: 100px;
   float: right;
@@ -49,18 +49,40 @@ h1 {
   width: 270px;
   height: 100px;
   float: right;
-}
+} */
 
-li {
+.div_nav {
+    width: 270px;
+    height: 100px;
+    float: right;
+  }
+  .div_nav:hover {
+    width: 270px;
+    height: 100px;
+    float: right;
+  }
+
+/* li {
   display: inline-block;
   text-align: center;
   padding: 10px;
   margin-top: 25px;
   border-right: 1px solid #999999;
-}
-    li:last-child{
-border-right: 0;}
+} */
 
+/* li:hover{
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    margin-top: 25px;
+    border:1px solid #999999;
+} */
+
+.navigation:hover {
+  text-decoration: none;
+  color: #787878;
+  font-size: 20px;
+}
 a {
   text-decoration: none;
   color: #999999;
@@ -69,11 +91,16 @@ a {
 
 
 /* background */
-html {
+/* html {
   background-image: url(./assets/concrete_seamless.png);
   background-repeat: repeat;
 }
+ */
 
+.div_main_background{
+    background-image: url(./assets/concrete_seamless.png);
+    background-repeat: repeat;
+  }
 
 
 /* BODY */
@@ -106,6 +133,8 @@ html {
   border-width: 0.5px;
   border-color: #d8d6d6;
   float: right;
+  /* position: sticky;
+  top: 140px; */
 }
 
 h6 {
@@ -139,4 +168,6 @@ h6 {
   /* padding: 25px; */
   color: #cccccc;
   width: 100%;
+  /* position: sticky;
+  bottom:0 */
 }
