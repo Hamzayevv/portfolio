@@ -61,10 +61,16 @@ li {
     li:last-child{
 border-right: 0;}
 
-.navigation:hover {
-  text-decoration: none;
-  color: #787878;
-  font-size: 20px;
+.navigation_link{
+    text-decoration: none;
+    font-size: 1.5vh;
+    color:#999999;
+}
+
+.navigation_link:hover {
+    text-decoration: none;
+    font-size: 1.6vh;
+    color:#4aaaa5;
 }
 a {
   text-decoration: none;
