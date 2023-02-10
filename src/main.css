@@ -131,6 +131,7 @@ h2 {
 
 /* side_section */
 .div_side_section {
+  position: sticky;
   width: 270px;
   background-color: #fff;
   border-style: solid;
