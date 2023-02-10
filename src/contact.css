@@ -26,6 +26,10 @@ input {
   height: 300px;
 }
 
+.textarea:focus{
+  background-color: #e6e5e5;
+}
+
 /* .submit{
     border: 1px solid rgb(231, 227, 227);
     padding: 0 40px;
