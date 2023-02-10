@@ -12,7 +12,6 @@ body{
 /* Header */
 .div_header_background {
   height: 100px;
-  width: 100%;
   background-color: #fff;
   border-bottom: 2px solid #cccccc;
 }
@@ -171,11 +170,5 @@ h6 {
   border-top: 8px solid #4aaaa5;
   background-color: #666;
   clear: both;
-  /* border-style: solid; */
   text-align: center;
-  /* padding: 25px; */
-  color: #cccccc;
-  width: 100%;
-  /* position: sticky;
-  bottom:0 */
 }
