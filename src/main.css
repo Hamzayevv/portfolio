@@ -24,12 +24,23 @@
   width: 250px;
   background-color: #4aaaa5;
   float: left;
+  transition: .2s all ease-in-out;
+  animation-name: motion;
+  animation-duration:2s;
+  animation-iteration-count: infinite;
+  animation-direction:alternate;
+}
+@keyframes motion{
+  25%{background-color: #4aaaa5;}
+  50%{background-color: #3e9793;}
+  75%{background-color: #38807c;}
+  100%{background-color: #2f817d;}
 }
 .div_logo:hover {
-  height: 100px;
-  width: 250px;
   background-color: #17cbc2;
-  float: left;
+}
+.div_logo:active{
+  background-color: #17cbc2;
 }
 
 h1 {
@@ -37,26 +48,11 @@ h1 {
   padding: 10px;
   color: #fff;
   font-size: 35px;
+  transition:color .3s all ease-in-out;
 }
 
 /* Nav */
-  .div_nav {
-  width: 270px;
-  height: 100px;
-  float: right;
-}
-.div_nav:hover {
-  width: 270px;
-  height: 100px;
-  float: right;
-}
-
 .div_nav {
-    width: 270px;
-    height: 100px;
-    float: right;
-  }
-  .div_nav:hover {
     width: 270px;
     height: 100px;
     float: right;
@@ -71,23 +67,21 @@ li {
 }
     li:last-child{
 border-right:0;}
-li:hover{
-    display: inline-block;
-    text-align: center;
-    padding: 10px;
-    margin-top: 25px;
-    border-bottom:1px solid #4aaaa5;
-}
 
-.navigation:hover {
-  text-decoration: none;
-  color: #4aaaa5;
-  font-size: 19px;
-}
+
+
+
 a {
   text-decoration: none;
   color: #999999;
   font-size: 18px;
+  transition: .2s all ease-in-out;
+}
+a:hover{
+  text-decoration: none;
+  color: #4aaaa5;
+  font-size: 19px;
+
 }
 
 
@@ -101,12 +95,19 @@ a {
 .div_main_background{
     background-image: url(./assets/concrete_seamless.png);
     background-repeat: repeat;
-  }
+    }
 
 
 /* BODY */
 
 /* body contenct area*/
+h2 {
+  font-size: 30px;
+  color: #4aaaa5;
+  border-bottom: 2px #999999 solid;
+  padding: 20px;
+}
+
 .div_content_area {
   padding: 40px 0;
   height: 800px;
@@ -149,9 +150,9 @@ h6 {
   padding: 10px;
   width: 60px;
   height: 60px;
+  transition: .2s all ease-in-out;
 }
 .network_logo:hover {
-  padding: 10px;
   width: 64px;
   height: 64px;
   opacity: 0.6;

@@ -43,22 +43,23 @@ input {
     background-color: #85fff9;
 } */
 
-.submit {
+.btn {
   border: 1px solid rgb(231, 227, 227);
+  border-radius: 24px;
   padding: 0 40px;
   margin: 10px 40px;
   width: 120px;
   height: 40px;
   background-color: #4aaaa5;
   color: azure;
+  box-shadow: 0 4px #b3b4b4;
 }
-.submit:hover {
-  border: 1px solid rgb(231, 227, 227);
-  padding: 0 40px;
-  margin: 10px 40px;
-  width: 120px;
-  height: 40px;
-  background-color: #16c3ba;
-  color: azure;
+.btn:hover {
+  background-color: #118681;
   cursor: pointer;
+}
+
+.btn:active{
+  width: 119px;
+  height: 39px;
 }
