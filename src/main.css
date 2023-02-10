@@ -14,7 +14,7 @@ body{
   height: 100px;
   background-color: #fff;
   border-bottom: 2px solid #cccccc;
-  position: fixed;
+  width: 100%;
 }
 
 .div_header_container {
@@ -172,5 +172,4 @@ h6 {
   background-color: #666;
   clear: both;
   text-align: center;
-  position: fixed;
 }
