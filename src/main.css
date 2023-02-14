@@ -7,7 +7,7 @@
 /* background */
 
 main {
-    min-height: 100vh;
+    min-height: 85vh;
 }
 body{
   background-image: url(./assets/concrete_seamless.png);
